@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+        .list{
+            display: flex ;
+            justify-content: space-evenly;
+        }
+        .pics{
+            justify-content: center;
+        }
+    </Style>
+
+</head>
+
+<body>
+    <h1>Welcome To Index Page </h1>
+    
+
+    <nav class="list">
+
+        <a href="Home/home.html"><img src="../media/house-solid.svg" alt="Home" width="50" title="Home"></a>
+        <a href="Contact/contact.html"><img src="../media/address-book-solid.svg" alt="Contact" width="50" title="Contact"></a>
+        <a href="Blog/blog.html"><img src="../media/blog-solid.svg" alt="Blog" width="50" title="Blog"></a>
+        <a href="/index.html"><img src="../media/hand-point-up-solid.svg" alt="index" width="40" title="Index"></a>
+        <a href="Aboutus/about.html"><img src="../media/address-card-regular.svg" alt="About" width="50" title="About"></a>
+
+        
+    </nav>
+
+    <picture class="pics">
+        <source media="(min-width:750)" srcset="media/Hanuman.jpg">
+        <source media="(min-width:600)" srcset="media/Boxing fighter.jpg">
+        <source media="(min-width:450)" srcset="media/Hanuman surya bhagawan.jpg">
+        <source media="(min-width:300)" srcset="media/Hanuman (1).jpg">
+
+        <img src="media/plant1.jpg" alt="flower" style="display: block; margin-left: auto;margin-right: auto;">
+
+    </picture>
+
+                                                            <!-- Image Formatting -->
+    <div>
+    <img src="/media/Hanuman.jpg" alt="Hanuman" usemap="#first_Box" style="display: block; margin-left: auto;margin-right: auto;" >
+    <map name="first_Box">
+        <area shape="poly" coords="" href="/Home/home.html">
+    </map>
+        </div>
+
+</body>
+</html>
